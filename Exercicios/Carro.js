@@ -19,3 +19,4 @@ const SW4 = new Carro('Toyota', 'branco', 1/7);
 const Sandero = new Carro('Renault', 'prata', 1/14.7 )
 
 console.log('O valor gasto no percurso é ' + Sandero.gastoPercurso(90, 6.13));
+console.log('O valor gasto no percurso é ' + SW4.gastoPercurso(90, 6.13));
