@@ -6,7 +6,14 @@ for (let i = 0; i < numeros.length; i++){
     const numero = numeros[i]
     if (numero%2 === 0){
         console.log("o numero " + numero + " é par");
-    } else{
+    }
+}
 
+/*Outra alternativa para o codigo sem o uso de uma lista*/
+
+for (let i = 0; i < 50; i++){
+    const par = i
+    if (par%2 === 0){
+        console.log("o numero " + par + " é par");
     }
 }
